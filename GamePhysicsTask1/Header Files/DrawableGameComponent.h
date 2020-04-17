@@ -22,7 +22,7 @@ public:
 /*		if (xCoord < 0) {
 			int i = xCoord;
 			switch (i) {
-			case y > 80:
+			case i > 80:
 				x = 80;
 				break;
 			case:

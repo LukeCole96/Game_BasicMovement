@@ -9,9 +9,9 @@ void Game::add(GameComponent* gameComponent) {
 void Game::run() {
 	for (int i = 0; i < 5; i++) {
 		//Iterate through each component to update.
-		for (int i = 0; i < componentCount; i++) {
+		for (int j = 0; j < componentCount; j++) {
 			tm* currentTimeStamp = getTime();
-			components[i]->update(currentTimeStamp);
+			components[j]->update(currentTimeStamp);
 		}
 	}
 };
